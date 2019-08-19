@@ -12,6 +12,10 @@ module.exports = {
         options: {
           presets: ['@babel/preset-env', '@babel/preset-react']
         }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
       }
     ]
   },
@@ -20,6 +24,6 @@ module.exports = {
   },
   output: {
     filename: 'main.js',
-    path: '/home/app/build'
+    path: '/home/app/dist/build'
   }
 };
