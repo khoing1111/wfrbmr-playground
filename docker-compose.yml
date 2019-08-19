@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  frontend:
+    build: frontend
+    command: ["tail", "-f", "/dev/null"]
+    volumes:
+      - ./frontend:/home/app
+    env_file:
+      - ./frontend/.env.local
+    container_name: playground-frontend

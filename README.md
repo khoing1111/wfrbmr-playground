@@ -1,8 +1,14 @@
-A play ground for new web micro service stack:
+# A play ground for new web micro service stack:
+## FRONTEND
 - Webpack
-- Flask
 - React
-- Bootstrap
-- MongoDB
 - Redux
+- Bootstrap
 - SASS
+- Typescript
+
+## BACKEND
+- Flask
+
+## DB
+- MongoDB
